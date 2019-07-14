@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/haijun/test/" />
+					<Add directory="lib" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="config.h" />
+		<Unit filename="examples/subscribe_simple/single.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/actions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/alias_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/alias_mosq.h" />
+		<Unit filename="lib/callbacks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/cpp/mosquittopp.cpp" />
+		<Unit filename="lib/cpp/mosquittopp.h" />
+		<Unit filename="lib/dummypthread.h" />
+		<Unit filename="lib/handle_auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_connack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_disconnect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_ping.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_pubackcomp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_publish.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_pubrec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_pubrel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_suback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/handle_unsuback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/logging_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/logging_mosq.h" />
+		<Unit filename="lib/loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/memory_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/memory_mosq.h" />
+		<Unit filename="lib/messages_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/messages_mosq.h" />
+		<Unit filename="lib/mosquitto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mosquitto.h" />
+		<Unit filename="lib/mosquitto_internal.h" />
+		<Unit filename="lib/mqtt_protocol.h" />
+		<Unit filename="lib/net_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/net_mosq.h" />
+		<Unit filename="lib/net_mosq_ocsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/packet_datatypes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/packet_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/packet_mosq.h" />
+		<Unit filename="lib/property_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/property_mosq.h" />
+		<Unit filename="lib/read_handle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/read_handle.h" />
+		<Unit filename="lib/send_connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/send_disconnect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/send_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/send_mosq.h" />
+		<Unit filename="lib/send_publish.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/send_subscribe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/send_unsubscribe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/socks_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/socks_mosq.h" />
+		<Unit filename="lib/srv_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/thread_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/time_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/time_mosq.h" />
+		<Unit filename="lib/tls_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/tls_mosq.h" />
+		<Unit filename="lib/utf8_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/util_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/util_mosq.h" />
+		<Unit filename="lib/util_topic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/will_mosq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/will_mosq.h" />
+		<Unit filename="uthash.h" />
+		<Unit filename="utlist.h" />
+		<Extensions>
+			<envvars />
+			<debugger />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,986 @@
+# depslib dependency file v1.0
+1514140574 source:f:\单片机\stm32\w5500\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1560864940 
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\alias_mosq.c
+	"config.h"
+	"mosquitto.h"
+	"alias_mosq.h"
+	"memory_mosq.h"
+
+1560864940 sq.h"
+
+1563074237 f:\单片机\stm32\w5500\test\\config.h
+	<openssl/opensslconf.h>
+	<stdint.h>
+
+1560864940 f:\单片机\stm32\w5500\test\lib\mosquitto.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+
+1560864940 f:\单片机\stm32\w5500\test\lib\alias_mosq.h
+	"mosquitto_internal.h"
+
+1560864940 _internal.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\mosquitto_internal.h
+	"config.h"
+	<winsock2.h>
+	<openssl/ssl.h>
+	<time.h>
+	<stdlib.h>
+	<pthread.h>
+	<dummypthread.h>
+	<ares.h>
+	<stdint.h>
+	<stdint.h>
+	"mosquitto.h"
+	"time_mosq.h"
+	<netdb.h>
+	"uthash.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\dummypthread.h
+
+1560864940 f:\单片机\stm32\w5500\test\lib\time_mosq.h
+
+1560864940 f:\单片机\stm32\w5500\test\\uthash.h
+	<string.h>
+	<stddef.h>
+	<stdlib.h>
+	<inttypes.h>
+
+1560864940 h>
+
+1560864940 f:\单片机\stm32\w5500\test\lib\memory_mosq.h
+	<stdio.h>
+	<sys/types.h>
+
+1560864940 .h>
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\callbacks.c
+	"config.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+
+1563014506 source:f:\单片机\stm32\w5500\test\lib\actions.c
+	"config.h"
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 .h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\messages_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\mqtt_protocol.h
+
+1563074698 f:\单片机\stm32\w5500\test\lib\net_mosq.h
+	<unistd.h>
+	<winsock2.h>
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\packet_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\send_mosq.h
+	"mosquitto.h"
+	"property_mosq.h"
+
+1560864940 mosq.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\property_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\util_mosq.h
+	<stdio.h>
+	"tls_mosq.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"mosquitto_broker_internal.h"
+
+1560864940 _broker_internal.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\tls_mosq.h
+	<openssl/ssl.h>
+	<openssl/engine.h>
+
+1560864940 ngine.h>
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\connect.c
+	"config.h"
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"messages_mosq.h"
+	"memory_mosq.h"
+	"packet_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"send_mosq.h"
+	"socks_mosq.h"
+	"util_mosq.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\logging_mosq.h
+	"mosquitto.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\socks_mosq.h
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_auth.c
+	"config.h"
+	<stdio.h>
+	<string.h>
+	"logging_mosq.h"
+	"mosquitto_internal.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_connack.c
+	"config.h"
+	<assert.h>
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"read_handle.h"
+
+1560864940 le.h"
+
+1560864940 f:\单片机\stm32\w5500\test\lib\read_handle.h
+	"mosquitto.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_disconnect.c
+	"config.h"
+	<stdio.h>
+	<string.h>
+	"logging_mosq.h"
+	"mqtt_protocol.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_ping.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_pubackcomp.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_publish.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"messages_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_pubrec.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_pubrel.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:f:\单片机\stm32\w5500\test\lib\handle_suback.c
+	"config.h"
+	<assert.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1563014506 source:/home/haijun/test/lib/actions.c
+	"config.h"
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1563074237 /home/haijun/test//config.h
+	<openssl/opensslconf.h>
+	<stdint.h>
+
+1560864940 /home/haijun/test/lib/mosquitto.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+
+1563078882 /home/haijun/test/lib/mosquitto_internal.h
+	"config.h"
+	<winsock2.h>
+	<openssl/ssl.h>
+	<time.h>
+	<stdlib.h>
+	<pthread.h>
+	"dummypthread.h"
+	<ares.h>
+	<stdint.h>
+	<stdint.h>
+	"mosquitto.h"
+	"time_mosq.h"
+	<netdb.h>
+	"uthash.h"
+
+1560864940 /home/haijun/test/lib/dummypthread.h
+
+1560864940 /home/haijun/test/lib/time_mosq.h
+
+1560864940 /home/haijun/test//uthash.h
+	<string.h>
+	<stddef.h>
+	<stdlib.h>
+	<inttypes.h>
+
+1560864940 /home/haijun/test/lib/memory_mosq.h
+	<stdio.h>
+	<sys/types.h>
+
+1560864940 /home/haijun/test/lib/messages_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 /home/haijun/test/lib/mqtt_protocol.h
+
+1563074698 /home/haijun/test/lib/net_mosq.h
+	<unistd.h>
+	<winsock2.h>
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 /home/haijun/test/lib/packet_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 /home/haijun/test/lib/send_mosq.h
+	"mosquitto.h"
+	"property_mosq.h"
+
+1560864940 /home/haijun/test/lib/property_mosq.h
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 /home/haijun/test/lib/util_mosq.h
+	<stdio.h>
+	"tls_mosq.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"mosquitto_broker_internal.h"
+
+1560864940 /home/haijun/test/lib/tls_mosq.h
+	<openssl/ssl.h>
+	<openssl/engine.h>
+
+1560864940 source:/home/haijun/test/lib/alias_mosq.c
+	"config.h"
+	"mosquitto.h"
+	"alias_mosq.h"
+	"memory_mosq.h"
+
+1560864940 /home/haijun/test/lib/alias_mosq.h
+	"mosquitto_internal.h"
+
+1560864940 source:/home/haijun/test/lib/callbacks.c
+	"config.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+
+1560864940 source:/home/haijun/test/lib/connect.c
+	"config.h"
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"messages_mosq.h"
+	"memory_mosq.h"
+	"packet_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"send_mosq.h"
+	"socks_mosq.h"
+	"util_mosq.h"
+
+1560864940 /home/haijun/test/lib/logging_mosq.h
+	"mosquitto.h"
+
+1560864940 /home/haijun/test/lib/socks_mosq.h
+
+1560864940 source:/home/haijun/test/lib/handle_auth.c
+	"config.h"
+	<stdio.h>
+	<string.h>
+	"logging_mosq.h"
+	"mosquitto_internal.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_connack.c
+	"config.h"
+	<assert.h>
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"read_handle.h"
+
+1560864940 /home/haijun/test/lib/read_handle.h
+	"mosquitto.h"
+
+1560864940 source:/home/haijun/test/lib/handle_disconnect.c
+	"config.h"
+	<stdio.h>
+	<string.h>
+	"logging_mosq.h"
+	"mqtt_protocol.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_ping.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_pubackcomp.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_publish.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"messages_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_pubrec.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_pubrel.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_suback.c
+	"config.h"
+	<assert.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/handle_unsuback.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/helpers.c
+	"config.h"
+	<errno.h>
+	<stdbool.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+
+1560864940 source:/home/haijun/test/lib/logging_mosq.c
+	"config.h"
+	<assert.h>
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_internal.h"
+	"mosquitto.h"
+	"memory_mosq.h"
+
+1514140574 source:/home/haijun/test/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1563076760 source:/home/haijun/test/test.c
+	<stdio.h>
+
+1563074237 /home/haijun/test/lib/config.h
+	<openssl/opensslconf.h>
+	<stdint.h>
+
+1560864940 /home/haijun/test/lib/uthash.h
+	<string.h>
+	<stddef.h>
+	<stdlib.h>
+	<inttypes.h>
+
+1563074725 source:/home/haijun/test/lib/cpp/mosquittopp.cpp
+	<cstdlib>
+	<mosquitto.h>
+	"mosquittopp.h"
+
+1560864940 /home/haijun/test/lib/cpp/mosquittopp.h
+	<cstdlib>
+	<mosquitto.h>
+	<time.h>
+
+1560864940 source:/home/haijun/test/lib/loop.c
+	"config.h"
+	<errno.h>
+	<sys/select.h>
+	<time.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"socks_mosq.h"
+	"tls_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/memory_mosq.c
+	"config.h"
+	<stdlib.h>
+	<string.h>
+	"memory_mosq.h"
+	<malloc/malloc.h>
+	<malloc_np.h>
+	<malloc.h>
+
+1560864940 source:/home/haijun/test/lib/mosquitto.c
+	"config.h"
+	<errno.h>
+	<signal.h>
+	<string.h>
+	<sys/time.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"will_mosq.h"
+
+1560864940 /home/haijun/test/lib/will_mosq.h
+	"mosquitto.h"
+	"mosquitto_internal.h"
+
+1560864940 source:/home/haijun/test/lib/net_mosq.c
+	"config.h"
+	<assert.h>
+	<errno.h>
+	<fcntl.h>
+	<stdio.h>
+	<string.h>
+	<netdb.h>
+	<sys/socket.h>
+	<unistd.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<linux/in.h>
+	<linux/in6.h>
+	<sys/endian.h>
+	<netinet/in.h>
+	<net/netbyte.h>
+	<openssl/conf.h>
+	<openssl/engine.h>
+	<openssl/err.h>
+	<openssl/ui.h>
+	<tls_mosq.h>
+	"mosquitto_broker_internal.h"
+	<libwebsockets.h>
+	"read_handle.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/net_mosq_ocsp.c
+	<logging_mosq.h>
+	<mosquitto_internal.h>
+	<net_mosq.h>
+	<openssl/safestack.h>
+	<openssl/tls1.h>
+	<openssl/ssl.h>
+	<openssl/ocsp.h>
+
+1560864940 source:/home/haijun/test/lib/options.c
+	"config.h"
+	<strings.h>
+	<string.h>
+	<winsock2.h>
+	<openssl/engine.h>
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"util_mosq.h"
+	"will_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/packet_datatypes.c
+	"config.h"
+	<assert.h>
+	<errno.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	<libwebsockets.h>
+	"read_handle.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"sys_tree.h"
+
+1560864940 source:/home/haijun/test/lib/packet_mosq.c
+	"config.h"
+	<assert.h>
+	<errno.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	<libwebsockets.h>
+	"read_handle.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"sys_tree.h"
+	"send_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/property_mosq.c
+	"config.h"
+	<assert.h>
+	<errno.h>
+	<string.h>
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/read_handle.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_connect.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_disconnect.c
+	"config.h"
+	<assert.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_mosq.c
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"sys_tree.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"mqtt_protocol.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_publish.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"sys_tree.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"mqtt_protocol.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_subscribe.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/send_unsubscribe.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"packet_mosq.h"
+	"property_mosq.h"
+	"send_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/socks_mosq.c
+	"config.h"
+	<errno.h>
+	<string.h>
+	<limits.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"mosquitto_internal.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"packet_mosq.h"
+	"send_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/srv_mosq.c
+	"config.h"
+	<ares.h>
+	<arpa/nameser.h>
+	<stdio.h>
+	<string.h>
+	"logging_mosq.h"
+	"memory_mosq.h"
+	"mosquitto_internal.h"
+	"mosquitto.h"
+
+1560864940 source:/home/haijun/test/lib/thread_mosq.c
+	"config.h"
+	<time.h>
+	"mosquitto_internal.h"
+	"net_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/time_mosq.c
+	"config.h"
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<windows.h>
+	<unistd.h>
+	<time.h>
+	"mosquitto.h"
+	"time_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/tls_mosq.c
+	"config.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<strings.h>
+	<string.h>
+	<openssl/conf.h>
+	<openssl/x509v3.h>
+	<openssl/ssl.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"tls_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/utf8_mosq.c
+	"config.h"
+	<stdio.h>
+	"mosquitto.h"
+
+1560864940 source:/home/haijun/test/lib/util_mosq.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	<winsock2.h>
+	<aclapi.h>
+	<io.h>
+	<lmcons.h>
+	<sys/stat.h>
+	<sys/random.h>
+	<openssl/bn.h>
+	<openssl/rand.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"tls_mosq.h"
+	"util_mosq.h"
+	<libwebsockets.h>
+
+1560864940 source:/home/haijun/test/lib/util_topic.c
+	"config.h"
+	<assert.h>
+	<string.h>
+	<winsock2.h>
+	<aclapi.h>
+	<io.h>
+	<lmcons.h>
+	<sys/stat.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"memory_mosq.h"
+	"net_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"tls_mosq.h"
+	"util_mosq.h"
+
+1560864940 source:/home/haijun/test/lib/will_mosq.c
+	"config.h"
+	<stdio.h>
+	<string.h>
+	"mosquitto_broker_internal.h"
+	"mosquitto.h"
+	"mosquitto_internal.h"
+	"logging_mosq.h"
+	"messages_mosq.h"
+	"memory_mosq.h"
+	"mqtt_protocol.h"
+	"net_mosq.h"
+	"read_handle.h"
+	"send_mosq.h"
+	"util_mosq.h"
+	"will_mosq.h"
+
+1563078908 source:/home/haijun/test/lib/messages_mosq.c
+	"config.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"utlist.h"
+	"mosquitto_internal.h"
+	"mosquitto.h"
+	"memory_mosq.h"
+	"messages_mosq.h"
+	"send_mosq.h"
+	"time_mosq.h"
+	"util_mosq.h"
+
+1560864940 /home/haijun/test/lib/utlist.h
+	<assert.h>
+
+1563081501 source:/home/haijun/test/examples/subscribe_simple/single.c
+	<stdlib.h>
+	<stdio.h>
+	"mosquitto.h"
+
